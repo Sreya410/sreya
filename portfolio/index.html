@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Your Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 1rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #6a11cb;
+        }
+        section {
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 900px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            text-align: center;
+            color: #6a11cb;
+            margin-bottom: 1rem;
+        }
+        #about img {
+            display: block;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        #about p {
+            text-align: center;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .skills ul, .projects ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .skills li, .projects li {
+            background: #f4f4f9;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            flex: 1 1 calc(30% - 20px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        #contact {
+            text-align: center;
+        }
+        #contact a {
+            color: #6a11cb;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Sreya - Aspiring Developer</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <!-- Place your image in the same folder as this HTML file -->
+        <img src="profile.jpg" alt="Your Photo">
+        <p>Hi, I'm Sreya N, a dedicated developer passionate about creating impactful software solutions and websites. Welcome to my portfolio!</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Java, Python</li>
+            <li>React.js</li>
+            <li>Git/GitHub</li>
+            <li>SQL & NoSQL Databases</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>Portfolio Website</strong><br>
+                A personal portfolio showcasing my work.
+            </li>
+            <li>
+                <strong>Weather App</strong><br>
+                A dashboard for live weather updates.
+            </li>
+            <li>
+                <strong>Task Manager</strong><br>
+                A to-do list app for organizing tasks.
+            </li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Let's connect! Email me at <a href="mailto:sreya3492@gmail.com">sreya@example.com</a> or visit my <a href="https://www.linkedin.com/in/sreya-n-175626290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn Profile</a>.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
